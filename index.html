@@ -8,10 +8,19 @@
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f4f4f4;
+            background-color: #004225; /* British Racing Green */
+            color: white; /* Ensures text is readable */
+            text-align: center;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 30px;
         }
         .tree {
             text-align: center;
@@ -26,21 +35,24 @@
             gap: 20px;
         }
         .box {
-            border: 2px solid #333;
+            border: 2px solid #fff;
             padding: 10px 20px;
             background: white;
+            color: black;
             border-radius: 5px;
             display: inline-block;
         }
         .line {
             height: 20px;
             width: 2px;
-            background: black;
+            background: white;
             margin: auto;
         }
     </style>
 </head>
 <body>
+
+    <h1>Bradley Austin Hurst</h1>
 
     <div class="tree">
         <div class="parent box">Grandparent</div>
